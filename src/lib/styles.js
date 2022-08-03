@@ -9,26 +9,41 @@ export const styles = {
   heading1: {
     flexDirection: 'row',
     fontSize: 32,
+    fontFamily: 'Hind',
+    lineHeight: 48,
+    fontWeight: '700',
   },
   heading2: {
     flexDirection: 'row',
     fontSize: 24,
+    fontFamily: 'Hind',
+    lineHeight: 36,
+    fontWeight: '700',
   },
   heading3: {
     flexDirection: 'row',
     fontSize: 18,
+    fontFamily: 'Hind',
+    lineHeight: 29,
+    fontWeight: '700',
   },
   heading4: {
     flexDirection: 'row',
     fontSize: 16,
+    fontFamily: 'Hind',
+    lineHeight: 24,
+    fontWeight: '500',
   },
   heading5: {
     flexDirection: 'row',
     fontSize: 13,
+    lineHeight: 20,
+    fontFamily: 'Hind',
   },
   heading6: {
     flexDirection: 'row',
-    fontSize: 11,
+    fontSize: 17,
+    fontFamily: 'Hind',
   },
 
   // Horizontal Rule
@@ -92,10 +107,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Courier',
+        fontFamily: 'Hind',
       },
       ['android']: {
-        fontFamily: 'monospace',
+        fontFamily: 'Hind',
       },
     }),
   },
@@ -107,10 +122,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Courier',
+        fontFamily: 'Hind',
       },
       ['android']: {
-        fontFamily: 'monospace',
+        fontFamily: 'Hind',
       },
     }),
   },
@@ -122,10 +137,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Courier',
+        fontFamily: 'Hind',
       },
       ['android']: {
-        fontFamily: 'monospace',
+        fontFamily: 'Hind',
       },
     }),
   },
@@ -154,7 +169,9 @@ export const styles = {
 
   // Links
   link: {
-    textDecorationLine: 'underline',
+    fontFamily: 'Hind',
+    fontWeight: 'bold',
+    color: '#E466B5',
   },
   blocklink: {
     flex: 1,
@@ -168,9 +185,14 @@ export const styles = {
   },
 
   // Text Output
-  text: {},
-  textgroup: {},
+  text: {
+    fontFamily: 'Hind',
+  },
+  textgroup: {
+    fontFamily: 'Hind',
+  },
   paragraph: {
+    fontFamily: 'Hind',
     marginTop: 10,
     marginBottom: 10,
     flexWrap: 'wrap',
