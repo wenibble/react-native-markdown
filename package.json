@@ -42,7 +42,6 @@
     "@types/markdown-it": "^10.0.1",
     "@types/react-native": ">=0.68.0",
     "json-schema": "^0.2.5",
-    "pre-commit": "1.2.2",
     "typescript": "^3.8.3"
   }
 }
