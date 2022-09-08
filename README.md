@@ -1,4 +1,4 @@
-Forked by [Nibble](nibbleapp.com)
+Forked by [Nibble](https://nibbleapp.com)
 
 # React Native Markdown Display [![npm version](https://badge.fury.io/js/react-native-markdown-display.svg)](https://badge.fury.io/js/react-native-markdown-display) [![Known Vulnerabilities](https://snyk.io/test/github/iamacup/react-native-markdown-display/badge.svg)](https://snyk.io/test/github/iamacup/react-native-markdown-display)
 
