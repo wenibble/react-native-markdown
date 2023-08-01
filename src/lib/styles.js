@@ -9,28 +9,28 @@ export const styles = {
   heading1: {
     flexDirection: 'row',
     fontSize: 32,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_600SemiBold',
     lineHeight: 48,
     fontWeight: '700',
   },
   heading2: {
     flexDirection: 'row',
     fontSize: 24,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_600SemiBold',
     lineHeight: 36,
     fontWeight: '700',
   },
   heading3: {
     flexDirection: 'row',
     fontSize: 18,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_600SemiBold',
     lineHeight: 29,
     fontWeight: '700',
   },
   heading4: {
     flexDirection: 'row',
     fontSize: 16,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_500Medium',
     lineHeight: 24,
     fontWeight: '500',
   },
@@ -38,12 +38,12 @@ export const styles = {
     flexDirection: 'row',
     fontSize: 13,
     lineHeight: 20,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_500Medium',
   },
   heading6: {
     flexDirection: 'row',
     fontSize: 17,
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_500Medium',
   },
 
   // Horizontal Rule
@@ -55,6 +55,7 @@ export const styles = {
   // Emphasis
   strong: {
     fontWeight: 'bold',
+    fontFamily: 'Hind_600SemiBold',
   },
   em: {
     fontStyle: 'italic',
@@ -107,10 +108,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
       ['android']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
     }),
   },
@@ -122,10 +123,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
       ['android']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
     }),
   },
@@ -137,10 +138,10 @@ export const styles = {
     borderRadius: 4,
     ...Platform.select({
       ['ios']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
       ['android']: {
-        fontFamily: 'Hind',
+        fontFamily: 'Hind_400Regular',
       },
     }),
   },
@@ -169,8 +170,7 @@ export const styles = {
 
   // Links
   link: {
-    fontFamily: 'Hind',
-    fontWeight: 'bold',
+    fontFamily: 'Hind_600SemiBold',
     color: '#E466B5',
   },
   blocklink: {
@@ -186,13 +186,13 @@ export const styles = {
 
   // Text Output
   text: {
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_400Regular',
   },
   textgroup: {
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_400Regular',
   },
   paragraph: {
-    fontFamily: 'Hind',
+    fontFamily: 'Hind_400Regular',
     marginTop: 10,
     marginBottom: 10,
     flexWrap: 'wrap',
